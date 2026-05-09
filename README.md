@@ -7,7 +7,13 @@ Lívia Helena Alves Rocha
 Milena de Souza Ribeiro
 
 🔗Projeto no ar:
-[[INSIRA O LINK DO REPOSITÓRIO AQUI](https://liviahelenas.github.io/smartFinances/main/index.html)]
+[[
+👩‍💻 Participantes
+Rosane Maciel do Rosário
+Lívia Helena Alves Rocha
+Milena de Souza Ribeiro
+🔗Projeto no ar:
+[(https://liviahelenas.github.io/smartFinances/main/index.html)]
 
 🌱 Sobre o Projeto
 
