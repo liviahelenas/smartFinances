@@ -6,13 +6,13 @@ Rosane Maciel do Rosário
 Lívia Helena Alves Rocha
 Milena de Souza Ribeiro
 
-🔗Projeto no ar:
-[[
+
 👩‍💻 Participantes
 Rosane Maciel do Rosário
 Lívia Helena Alves Rocha
 Milena de Souza Ribeiro
-🔗Projeto no ar:(https://liviahelenas.github.io/smartFinances/main/index.html)
+
+🔗Projeto no ar:[https://liviahelenas.github.io/smartFinances/main/index.html]
 
 🌱 Sobre o Projeto
 
