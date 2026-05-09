@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heroIndex {
+    height: 100vh;
+    width: 100%;
+    background-color: #eeecec;
+    padding: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+header {
+    width: 800px;
+    height: 54px;
+    background-color: #efffdb;
+    border-radius: 4rem;
+    position: fixed;
+    display: flex;
+    padding: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 2rem;
+}
+.alinhamentoHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.divTextoH1 h1 {
+    font-family: "DM Sans", sans-serif;
+    color: #2C2C2C;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.divHeroIndex h2 {
+    font-family: "DM Sans", sans-serif;
+    color: #2C2C2C;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 3rem;
+}
+.divHeroIndex {
+    width: 100%;
+    height: 100%;
+    padding: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+.divButtonHero button {
+    height: 40px;
+    width: 250px;
+    border-radius: 4rem;
+    font-size: 0.95rem;
+    padding: 2%;
+    background-color: #92D938;
+    border-style: none;
+    color: #2C2C2C;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    background-color: #a2ec40;
+    transform: translateY(-5px);
+}
+.verSaldo,
+.verPerfil {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+}
+.cardTexto p {
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    color: #cecece;
+}
+.divHeroIndex p {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+.divButtonHeroPerfil button {
+    height: 40px;
+    width: 250px;
+    border-radius: 4rem;
+    font-size: 0.95rem;
+    padding: 2%;
+    background-color: #2C2C2C;
+    border-style: none;
+    color: #cecece;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divButtonHeroPerfil button:hover {
+    background-color: #474747;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.svgButton svg {
+    height: 20px;
+    margin-top: 3px;
+}
+.icon button {
+    border-radius: 80%;
+    height: 20px;
+    width: 20px;
+    background-color: #92D938;
+}
+header button {
+    height: 40px;
+    width: 40px;
+    background-color: #92D938;
+    border-radius: 100%;
+    border-style: none;
+}
+header button svg {
+    height: 20px;
+    width: auto;
+    padding: 8%;
+}
+.divHeroIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: #1E1E1E;
+    font-family: "DM Sans", sans-serif;
+}
+/* LAYOUT PRINCIPAL */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeecec;
+    display: flex;
+}
+/* SIDEBAR */
+.container {
+    width: 260px;
+    min-height: 100vh;
+    background-color: #92D938;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 2rem;
+}
+.logo {
+    margin-bottom: 2rem;
+    color: #2C2C2C;
+    font-size: 2.2rem;
+    font-weight: normal;
+    font-family: "DM Sans", sans-serif;
+}
+/* MENU */
+.container p, a {
+    font-size: 1.1rem;
+    color: #2C2C2C;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container p:hover {
+    transform: translateX(5px);
+}
+/* DASHBOARD */
+.aside {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+/* HEADER */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar h1 {
+    color: #2C2C2C;
+    font-size: 2.2rem;
+    font-weight: normal;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+/* CARDS */
+.dashboardCards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    gap: 3rem;
+}
+.cardInfos {
+    background-color: #2C2C2C;
+    border-radius: 1rem;
+    padding: 5%;
+    min-width: 250px;
+    flex: 1;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    transition: 0.3s;
+}
+.cardInfos:hover {
+    transform: translateY(-5px);
+}
+.cardInfos h2 {
+    color: #92D938;
+    font-size: 1.2rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.cardInfos p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Alata", sans-serif;
+    font-weight: 200;
+}
+/* GRAFICOS */
+.graficos {
+    background-color: #2C2C2C;
+    border-radius: 1rem;
+    padding: 5%;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.graficos h2 {
+    color: white;
+    font-weight: 500;
+}
+/* INSIGHTS */
+.insights {
+    background-color: #2C2C2C;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.insights h2 {
+    color: #92D938;
+    font-size: 1.5rem;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.insights p {
+    background-color: #3A3A3A;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+span {
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-weight: 200;
+    line-height: 2rem;
+    color: #92D938;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+/* TABELA */
+.tabela {
+    background-color: #2C2C2C;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.tabela h2 {
+    color: #92D938;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    color: #92D938;
+    text-align: left;
+    padding: 1rem;
+}
+td {
+    color: white;
+    padding: 1rem;
+    border-top: 1px solid #3A3A3A;
+}
+/* BOTÕES */
+.button {
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 2rem;
+    background-color: #92D938;
+    color: #2C2C2C;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #7fad43;
+}
+.logo {
+    padding: 2rem;
+    line-height: 1.8rem;
+}
+/* RESPONSIVIDADE */
+@media(max-width: 900px) {
+    .hero {
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .aside {
+        padding: 2rem;
+    }
+    .dashboardCards {
+        flex-direction: column;
+    }
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+input {
+    height: 34px;
+    width: 100%;
+    border-radius: 4rem;
+    padding: 4px;
+    border-style: none;
+}
+select {
+    height: 34px;
+    width: 100%;
+    border-radius: 4rem;
+    padding: 4px;
+    border-style: none;}
+#amount {
+    padding-left: 16px;
+    font-family: "DM Sans", sans-serif;
+}
