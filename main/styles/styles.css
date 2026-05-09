@@ -292,18 +292,6 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
-span {
-    font-family: "Figtree", Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-weight: 200;
-    line-height: 2rem;
-    color: #92D938;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
 /* TABELA */
 .tabela {
     background-color: #2C2C2C;
