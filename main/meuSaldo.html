@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>
+        Smart Finance | Dashboard
+    </title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="hero">
+        <!-- SIDEBAR -->
+        <aside class="container">
+            <div class="logo">
+                Smart <b>
+                    Finance </b>
+            </div>
+            <p id="menuDashboard">
+                Dashboard
+            </p>
+            <p id="menuInsights">
+                Insights
+            </p>
+          
+            <p><a href="index.html">Voltar ao Início</a></p>
+        </aside>
+        <!-- CONTEÚDO -->
+        <main class="aside">
+            <!-- DASHBOARD -->
+            <section id="areaDashboard">
+                <!-- TOPO -->
+                <div class="topbar">
+                    <h1>
+                        Controle Financeiro
+                    </h1>
+                </div>
+                <!-- CARDS -->
+                <div class="dashboardCards">
+                    <div class="cardInfos">
+                        <h2>
+                            Entradas
+                        </h2>
+                        <p class="incomes">
+                            R$ 0.00
+                        </p>
+                    </div>
+                    <div class="cardInfos">
+                        <h2>
+                            Despesas
+                        </h2>
+                        <p class="expenses">
+                            R$ 0.00
+                        </p>
+                    </div>
+                    <div class="cardInfos">
+                        <h2>
+                            Total
+                        </h2>
+                        <p class="total">
+                            R$ 0.00
+                        </p>
+                    </div>
+                </div>
+                <!-- FORMULÁRIO -->
+                <div class="cardInfos formCard">
+                    <h2>
+                        Nova Transação
+                    </h2>
+                    <input type="text" id="desc" placeholder="Descrição">
+                    <div class="inputMoney">
+                                <input
+                                    type="text"
+                                    id="amount"
+                                    placeholder="R$ 0,00"
+                                    maxlength="14"
+                                >
+                    </div>
+                        <select id="category">
+            
+
+                        <option value="">
+                            Selecione a categoria
+                        </option>
+
+                        <option value="Alimentação">
+                            Alimentação
+                        </option>
+
+                        <option value="Transporte">
+                            Transporte
+                        </option>
+
+                        <option value="Moradia">
+                            Moradia
+                        </option>
+
+                        <option value="Lazer">
+                            Lazer
+                        </option>
+
+                        <option value="Saúde">
+                            Saúde
+                        </option>
+
+                        <option value="Salário">
+                            Salário
+                        </option>
+
+                        <option value="Outros">
+                            Outros
+                        </option>
+                    </select>
+                    <select id="type">
+                        <option>Selecione o tipo</option>
+                        <option>Entrada</option>
+                        <option>Saída</option>
+                    </select>
+                    <button id="btnNew" class="button">
+                        Adicionar
+                    </button>
+                </div>
+                <!-- TABELA -->
+                <div class="tabela">
+                    <h2>
+                        Histórico Financeiro
+                    </h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Tipo</th>
+                                <th>Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- INSIGHTS -->
+            <section id="areaInsights" style="display: none;">
+                <div class="insights">
+                    <h2>
+                        Insights Inteligentes
+                    </h2>
+                    <div id="insights">
+                        <p>
+                            Seus insights aparecerão aqui.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- RELATÓRIOS -->
+            <section id="areaRelatorios" style="display: none;">
+                <div class="graficos">
+                    <h2>
+                        Relatórios Financeiros
+                    </h2>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="./js/dashboard.js">
+    </script>
+</body>
+</html>
