@@ -3,9 +3,9 @@ Seu controle financeiro de forma inteligente e fluida 🍃
 
 
  ## 👩‍💻 Participantes
-Rosane Maciel do Rosário
-Lívia Helena Alves Rocha
-Milena de Souza Ribeiro
+  *  Rosane Maciel do Rosário
+  * Lívia Helena Alves Rocha
+  * Milena de Souza Ribeiro
 
 [🌐 Acessar Projeto Smart Finance](https://liviahelenas.github.io/smartFinances/main/index.html)
 
